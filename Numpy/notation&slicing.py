@@ -25,3 +25,11 @@ k = np.array(a)
 print(k)
 j = k.reshape(5,5)
 print(j)
+
+arr = np.array([1,2,3,4,5])
+print(arr)
+arrs = arr[0:3]
+print(arrs)
+arrs[:] = 2
+print(arrs)
+print(arr)
