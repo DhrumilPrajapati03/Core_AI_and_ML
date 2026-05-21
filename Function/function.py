@@ -1,18 +1,21 @@
 #syntax :
 # def function_name(parameters):
 #     function body(Logic)
-#     return statement
+#     return/print statement
 
-def greet():
-    print("Hello, welcome to Python programming!")
+#function calling:
+#function_name(parameters)
 
-def user_info(name, age):
-    print(f"Name: {name}, Age: {age}")
+# def greet():
+#     print("Hello, welcome to Python programming!")
+
+# def user_info(name, age):
+#     print(f"Name: {name}, Age: {age}")
     
-#functoin call
-user_info("Karan",20)
+# #functoin call
+# user_info("Yash",14)
 
-greet()
+# greet()
 
 def add(a,b):
     '''
