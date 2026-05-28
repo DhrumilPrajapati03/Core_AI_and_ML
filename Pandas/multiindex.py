@@ -8,3 +8,6 @@ print(df)
 
 # print(df.loc['Darshan','ME'])
 print(df.iloc[1])
+
+# Drop a single column
+df = df.drop(columns=['column_name'])
