@@ -9,10 +9,14 @@ dict = {"name": "Alice",
         "phone_numbers": ("123-456-7890", "987-654-3210")}
 
 update_dict = {"age": 31, "city": "Los Angeles", "country": "USA"}
-update_dict.update(dict)
-print(update_dict)
 
-print(dict["name"])  # Output: Alice
+m = dict | update_dict
+print(m)
+
+# dict.update(update_dict)
+# print(dict)
+
+print(dict["city"])  # Output: Alice
 print(dict.get("age"))  # Output: 30
 print(dict.keys(),"\n")
 print(dict.values(),"\n")
