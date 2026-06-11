@@ -26,3 +26,28 @@ def reverse_string(s):
 
 entered_string = input("Enter a string: ")
 print(reverse_string(entered_string))
+
+#Greatest of Four
+def greatestO4(n1,n2,n3,n4):
+    if n1>n2:
+        f1 = n1
+    else:
+        f1 = n2 #453 
+
+    if n3>n4:
+        f2 = n3
+    else:
+        f2 = n4 #76
+
+    if f1>f2:
+        print(f"{f1} is greatest")
+    else:
+        print(f"{f2} is greatest")
+
+greatestO4(23,453,54,76)
+
+# area of circle
+def aoc(r):
+    return 3.14*r*r
+
+print(aoc(2))
