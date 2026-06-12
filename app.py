@@ -335,3 +335,6 @@ with st.form("quiz_form"):
             st.markdown(f"<div style='background-color:#1e3a8a; padding:20px; border-radius:10px; color:#60a5fa; font-weight:bold; font-size:20px; text-align:center;'>🌟 Great job! You got {score} / 30 marks.</div>", unsafe_allow_html=True)
         else:
             st.markdown(f"<div style='background-color:#7f1d1d; padding:20px; border-radius:10px; color:#f87171; font-weight:bold; font-size:20px; text-align:center;'>👍 Good effort. You got {score} / 30 marks. Keep reviewing the concepts!</div>", unsafe_allow_html=True)
+
+
+print("done")
