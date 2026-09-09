@@ -1,3 +1,5 @@
 .venv/
 keep_alive.py
 \fashionmnisttrain.csv
+\agedetectiontest
+\agedetectiontrain
